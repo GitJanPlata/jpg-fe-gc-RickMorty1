@@ -16,4 +16,14 @@ export class CardsComponent implements OnInit {
       this.characters = data.characters;
     });
   }
+
+  showDetails(character: any) {
+    this.http.get('../../assets/data/database.json').subscribe((data: any) => {
+      const characterDetails = data.characters.find((char: any) => char.id === character.id);
+      if (characterDetails) {
+        // Aquí puedes hacer lo que desees con los detalles del personaje, como mostrarlos en un modal o redirigir a una página de detalles
+        console.log(characterDetails);
+      }
+    });
+  }
 }
