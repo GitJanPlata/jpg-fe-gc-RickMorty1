@@ -1,7 +1,7 @@
-<div class="d-flex justify-content-center align-items-center">
-<div class="row">
+<div class="d-flex justify-content-center align-items-center vh-80 container-fluid">
+  <div class="row">
     <div class="col-md-4" *ngFor="let character of characters">
-      <div class="card">
+      <div class="card mx-auto">
         <img class="card-img-top" [src]="character.image" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{character.name}}</h5>
