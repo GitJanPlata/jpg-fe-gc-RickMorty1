@@ -1,10 +1,16 @@
 .detalles{
-    
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90vh;
 }
 p{
-    font-size: 25px;
+    font-size: 20px;
+}
+img{
+    margin-bottom: 5% ;
+    margin-top: 5% ;
+}
+h2{
+    text-align: center;
 }

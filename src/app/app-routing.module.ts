@@ -13,9 +13,14 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { 
     path: '', 
+    redirectTo: 'register',
+    pathMatch: 'full' 
+  },
+  { 
+    path: '', 
     component: MainLayoutComponent, 
     children: [
-      { path: '', component: CardsComponent },
+      { path: 'cards', component: CardsComponent },
       { path: 'characters', component: CharactersComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'character/:id', component: DetailsComponent }

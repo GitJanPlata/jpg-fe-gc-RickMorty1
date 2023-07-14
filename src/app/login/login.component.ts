@@ -26,10 +26,9 @@ export class LoginComponent implements OnInit {
     const formValues = this.loginForm.value;
   
     if (storedUser && formValues.username === storedUser.username && formValues.password === storedUser.password) {
-      alert('Inicio de sesión exitoso!');
-      this.router.navigate(['/']); // Navega a la ruta base
+      this.router.navigate(['/']); 
     } else {
-      alert('Credenciales incorrectas');
+      alert('Credenciales incorrectas!');
     }
   }
 
