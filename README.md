@@ -1,27 +1,34 @@
 # RickMorty1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+### En este proyecto he hecho una pàgina web sobre Rick y Morty con componentes de Angular. La pàgina web consta de varias vistas las quales tienen diferentes funcionalidades :
 
-## Development server
+1- Vista del home que consiste en 5 cartas con personajes obtenidos de un archivo .json: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+https://jpg-fe-gc-rick-morty1.vercel.app/
 
-## Code scaffolding
+![70dc7cb87f8f793dec8175f080f9927c](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/7161d392-3c89-4e0a-9c89-0eb0663829fd)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2- Vista del componente characters , que selecciona aleatoriamente 3 de esos 5 personajes y los muestra en pantalla: 
 
-## Build
+https://jpg-fe-gc-rick-morty1.vercel.app/characters
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![12045d0247440d517e0f9d776a9bfc3c](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/786853bb-98b6-4b0f-be90-fa291e315c70)
 
-## Running unit tests
+3- Vista del componente details que muestra los datos del personaje de la carta correspondiente (ruta: character/X):
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://jpg-fe-gc-rick-morty1.vercel.app/characters
 
-## Running end-to-end tests
+![83a1343e3824e7dc1369c42c428c02ea](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/f27e0929-2505-4f91-bd95-5f41a61efacd)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4- Vista del componente register que es bàsicamente un formulario para registrarte como usuario:
 
-## Further help
+https://jpg-fe-gc-rick-morty1.vercel.app/register
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![e6f88e8d6fe0e29d5b3a0fc246833155](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/48f2552e-1ba0-4c1e-954f-ca6d9226a9ee)
+
+5- Vista del componente login que es bàsicamente un formulario de login:
+
+https://jpg-fe-gc-rick-morty1.vercel.app/login
+
+![f4ab972fe42f561e2b63c4c284a5abd5](https://github.com/GitJanPlata/jpg-fe-gc-RickMorty1/assets/96839905/5d7010d4-c55b-4ac5-b385-eb092a908428)
+
